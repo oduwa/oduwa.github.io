@@ -184,7 +184,7 @@ PAGE: PORTFOLIO
 }
 
 #home {
-	background: url(/img/ff.jpg) no-repeat 80% 40%; 
+	background: url(../img/ff.jpg) no-repeat 80% 40%; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
