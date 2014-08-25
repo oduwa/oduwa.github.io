@@ -1,3 +1,26 @@
+/*** CSS RESET ***/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
 /**********************************
 GENERAL
 ***********************************/
@@ -7,9 +30,11 @@ body {
 }
 
 #wrapper {
-  max-width: 940px;
+	
+	/* For Centering */
+  /*max-width: 940px;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 5%;*/
 }
 
 a {
@@ -25,17 +50,28 @@ img {
 /**********************************
 HEADING
 ***********************************/
-
+/*
 header {
   float: left;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
 }
-
+*/
+header {
+	background-color: #fff;
+	display: block;
+	font-family: 'nevis', helvetica, tahoma, arial, sans-serif;	
+	position: fixed;
+	  top: 0;
+	  left: 0;
+	height: 50px;
+	width: 100%;
+	z-index: 1;
+}
 #logo {
-  text-align: center;
-  margin: 0;
+	float: left;
+	width: 30%;
 }
 
 h1 {
@@ -58,8 +94,16 @@ h2 {
 NAVIGATION
 ***********************************/
 
+.shadow {
+	-moz-box-shadow: 0 2px 3px #efefef;
+	-webkit-box-shadow: 0 2px 3px #efefef;
+	box-shadow: 0 2px 3px #efefef;
+}
+
+/*
 nav {
-  text-align: center;
+	float: right;
+  text-align: right;
   padding: 10px 0;
   margin: 20px 0 0;
 }
@@ -78,6 +122,36 @@ nav a {
   font-weight: 800;
   padding: 15px 10px;
 }
+*/
+nav {
+	display: block;
+	float: right;	
+	font-size: 82%; /* 13px/16px = 82% */
+	line-height: 50px;
+	text-align: right;
+	width: 70%;
+}
+
+nav li {
+	display: inline;
+	padding: 0;
+	width: 100%;
+}
+
+nav ul li a {
+	color: #555;
+    font-weight: 800;
+    padding: 15px 10px;
+	/*text-decoration: none;
+	text-transform: uppercase;*/
+}
+
+nav ul li a:hover {
+	color: #fff;
+	border-bottom-color: #DB7633;
+}
+	
+	
 
 
 
@@ -105,6 +179,20 @@ footer {
 PAGE: PORTFOLIO
 ***********************************/
 
+#home {
+	margin-top: 50px; /* Adjusted for the fixed top nav. */
+}
+
+#home {
+	background: url(/img/ff.jpg) no-repeat 80% 40%; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 650px;
+	position: relative;
+}
+
 #gallery {
   margin: 0;
   padding: 0;
@@ -126,6 +214,13 @@ PAGE: PORTFOLIO
   color: #bdc3c7
 }
 
+.page {
+	height: auto;
+	padding-top: 1px; /*  This is to prevent */
+	margin-top: -1px; /*  margin collapsing  */
+	max-width: 100%;
+}
+
 
 /**********************************
 COLORS
@@ -140,12 +235,12 @@ body {
 /* green header */
 header {
   background: #6ab47b;
-  border-color: #599a68;
+  //background: #6ab47b;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  /*background: #599a68;*/
 }
 
 /* logo text */
