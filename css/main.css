@@ -20,19 +20,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Quicksand Light'), local('Quicksand-Light'), url(http://fonts.gstatic.com/s/quicksand/v4/qhfoJiLu10kFjChCCTvGlKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-@font-face {
-  font-family: 'Quicksand';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(http://fonts.gstatic.com/s/quicksand/v4/sKd0EMYPAh5PYCRKSryvW7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-}
-
 .spaced-top-bottom {
 		margin: 25px auto;
 }
@@ -489,8 +476,8 @@ PAGE: PORTFOLIO
 
 #gallery {
   background-color: #000;
-  margin-left: 18.5%;
-  margin-right: 20%;
+  margin-left: 8.5%;
+  margin-right: 10%;
   padding: 0;
   list-style: none;
 }
@@ -577,7 +564,18 @@ FONTS
 ***********************************/
 
 
-
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Quicksand Light'), local('Quicksand-Light'), url(http://fonts.gstatic.com/s/quicksand/v4/qhfoJiLu10kFjChCCTvGlKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(http://fonts.gstatic.com/s/quicksand/v4/sKd0EMYPAh5PYCRKSryvW7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
 
 
 
