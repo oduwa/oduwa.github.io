@@ -5,10 +5,45 @@
     <title>Oduwa Edo-Osagie</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
+	
+	<!-- Carousel Imports -->
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+ 
+	<!-- Default Theme -->
+	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+	
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+ 
+	<!--  jQuery 1.7+  -->
+	<script src="assets/js/jquery-1.9.1.min.js"></script>
+ 
+	<!-- Include js plugin -->
+	<script src="owl-carousel/owl.carousel.js"></script>
+	
+	<script>
+	function change_selected(clicked_item_id){
+		
+		var oldClickedItem = document.getElementsByClassName("selected")[0];
+		oldClickedItem.className = "";
+		
+		var clickedItem = document.getElementById(clicked_item_id);
+		clickedItem.className = "selected";
+		
+		
+	} 
+	</script>
   </head>
   <body>
-	  
+	    
+	<div class="content-container">  
 	<!-- Begin Header -->  
     <header class="shadow">
       <a href="index.html" id="logo">
@@ -16,11 +51,11 @@
       </a>
       <nav>
         <ul>
-		  <li><a href="#home" class="selected">Me</a></li>
-		  <li><a href="#gallery">Portfolio</a></li>
-		  <li><a href="#">CV</a></li>
-		  <li><a href="#">About</a></li>
-		  <li><a href="#">Contact</a></li>
+		  <li><a href="#home" class="selected" id="homeId" onclick="change_selected('homeId')">Me</a></li>
+		  <li><a href="#gallery" class="" id="galleryId" onclick="change_selected('galleryId')">Portfolio</a></li>
+		  <li><a href="#" class="" id="cvId" onclick="change_selected('cvId')">CV</a></li>
+		  <li><a href="#" class="" id="aboutId" onclick="change_selected('aboutId')">About</a></li>
+		  <li><a href="#" class="" id="contactId" onclick="change_selected('contactId')">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -30,53 +65,80 @@
     <div id="wrapper">
 		
 	  <!-- Home -->	
-  		<section class="page clear-it" id="home"><a id="home"></a>
-  			<div class="circle">
-  				<h1 class="circle-text">Hello.<br>I am Simone.<br>I write code.</h1>
-  				<!-- v DOWN ARROW v -->
-  				<p class="center-text"><a href="#profile"><img class="down-arrow" src="img/down-arrow.svg" width="40" height="40"></a></p>
-  			</div>
+  		<section class="clear-it" id="home">
+			
+			
+			<div class="circle">
+				<strong><h1 class="circle-text">Hello.<br>My name is Oduwa.<br>I write code.</h1></strong>
+		    </div>
+			
+			
+			<!--
+  			<div id="home-text">
+				Hello.<br /><br />
+				
+				My name is Oduwa Edo-Osagie<br /><br />
+				
+				I write code. <br /><br />
+				
+			</div>
+			<img src="img/oduwa.jpg" alt="">
+			-->
+
   		</section>	
 		
 		
       <section class="page" id="gallery">
-        <ul id="gallery">
-          <li>
-            <a href="img/numbers-01.jpg">
-              <img src="img/numbers-01.jpg" alt="">
-              <p>Experimentation with color and texture.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-02.jpg">
-              <img src="img/numbers-02.jpg" alt="">
-              <p>Playing with blending modes in Photoshop.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-06.jpg">
-              <img src="img/numbers-06.jpg" alt="">
-              <p>Trying to create an 80's style of glows.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-09.jpg">
-              <img src="img/numbers-09.jpg" alt="">
-              <p>Drips created using Photoshop brushes.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-12.jpg">
-              <img src="img/numbers-12.jpg" alt="">
-              <p>Creating shapes using repetition.</p>
-            </a>
-          </li>
-        </ul>
+
+		<div id="owl-demo" class="owl-carousel">
+		  <div><img src="img/numbers-01.jpg" alt="The Last of us"></div>
+		  <div><img src="img/numbers-01.jpg" alt="The Last of us2"></div>
+		  <div><img src="img/numbers-01.jpg" alt="The Last of us3"></div>
+		</div>  
+		  
+	    <script src="assets/js/jquery-1.9.1.min.js"></script> 
+	    <script src="owl-carousel/owl.carousel.js"></script>
+
+
+	    <!-- Demo -->
+
+	    <style>
+	    #owl-demo .item img{
+	        display: block;
+	        width: 100%;
+	        height: auto;
+	    }
+	    </style>
+
+
+	    <script>
+	    $(document).ready(function() {
+	      $("#owl-demo").owlCarousel({
+
+	      navigation : true,
+	      slideSpeed : 300,
+	      paginationSpeed : 400,
+	      singleItem : true
+		  
+	      });
+	    });
+	    </script>
+
+	    <script src="assets/js/bootstrap-collapse.js"></script>
+	    <script src="assets/js/bootstrap-transition.js"></script>
+	    <script src="assets/js/bootstrap-tab.js"></script>
+
+	    <script src="assets/js/google-code-prettify/prettify.js"></script>
+	    <script src="assets/js/application.js"></script>  
+		  
       </section>
+	  
+  </div>
+	  
       <footer>
-        <a href="http://twitter.com/nickrp"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="http://facebook.com/nickpettit"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-        <p>&copy; 2014 Nick Pettit.</p>
+        <a href="http://twitter.com/odieEd"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://facebook.com/oduwa.edoosagie"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2014 Oduwa Edo-Osagie.</p>
       </footer>
     </div>
   </body>
