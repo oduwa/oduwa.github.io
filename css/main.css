@@ -332,6 +332,7 @@ PAGE: PORTFOLIO
 #gallery {
   margin-left: 20%;
   margin-right: 20%;
+  margin-top: 50px;
   padding: 0;
   list-style: none;
 }
