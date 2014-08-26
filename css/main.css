@@ -329,10 +329,15 @@ PAGE: HOME
 PAGE: PORTFOLIO
 ***********************************/
 
+#galleryWrapper {
+  background-color: #000;
+  
+}
+
 #gallery {
+  background-color: #000;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 50px;
   padding: 0;
   list-style: none;
 }
