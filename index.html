@@ -50,7 +50,7 @@
   </head>
   <body>
 	    
-	<div class="content-container">  
+	<div class="content-container">
 	<!-- Begin Header -->  
     <header class="shadow">
       <a href="index.html" id="logo">
@@ -58,12 +58,12 @@
       </a>
       <nav>
         <ul>
-		  <li><a href="#home" class="selected" id="homeId" onclick="change_selected('homeId')">Me</a></li>
-		  <li><a href="#gallery" class="" id="galleryId" onclick="change_selected('galleryId')">Portfolio</a></li>
+		  <li><a href="#home" class="selected" id="homeId" onclick="change_selected('homeId')">Home</a></li>
+		  <li><a href="#about" class="" id="aboutId" onclick="change_selected('aboutId')">Profile</a></li>
+		  <li><a href="#gallery" class="" id="galleryId" onclick="change_selected('galleryId')">Work</a></li>
 		  <li><a href="Resources/cv.pdf" target="_blank">CV</a></li>
 		  <li><a href="http://odiesportfolio.tumblr.com" target="_blank">Blog</a></li>
-		  <li><a href="#" class="" id="aboutId" onclick="change_selected('aboutId')">About</a></li>
-		  <li><a href="#" class="" id="contactId" onclick="change_selected('contactId')">Contact</a></li>
+		  <li><a href="#contact" class="" id="contactId" onclick="change_selected('contactId')">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -95,20 +95,46 @@
 
   		</section>	
 		
+		<!-- End Home -->
+		
+		
+		
+		<!-- Begine Profile -->
+ 	    <section class="about" id="about" style="margin-top:50px">
+		  
+ 		  <div id="aboutWrapper" >
+ 		  <p id="aboutTitle">
+ 		  	I'm a <strong>Software Developer & Student.</strong><br />
+ 		  </p>
+		  
+ 		  <p id="aboutDesc">
+ 		  	I am particularly interested in mobile application development (iOS and Android) and Web Development.
+ 	  	  </p>
+		  
+ 		  <p id="aboutDesc">
+ 		  	I aim to have an impact on peoples' lives with my work.
+ 	  	  </p>
+ 	      </div>
+		  
+ 	  </section>
+	  <!-- End Profile -->	
+		
+		
+		
+	  <!-- Begine Gallery -->
 	  <div id="galleryWrapper">	
       <section class="gallery" id="gallery">
 
 		<div id="owl-demo" class="owl-carousel">
-		  <div><a href="http://www.google.com"><img src="img/numbers-01.jpg" alt="The Last of us"></a></div>
-		  <div><img src="img/numbers-01.jpg" alt="The Last of us2"></div>
-		  <div><img src="img/numbers-01.jpg" alt="The Last of us3"></div>
+		  <div style="margin-top: 50px;"><a href="http://www.google.com"><img src="img/numbers-01.jpg" alt="The Last of us"></a></div>
+		  <div style="margin-top: 50px;"><img src="img/numbers-01.jpg" alt="The Last of us2"></div>
+		  <div style="margin-top: 50px;"><img src="img/numbers-01.jpg" alt="The Last of us3"></div>
 		</div>  
 		  
 	    <script src="carousel/assets/js/jquery-1.9.1.min.js"></script> 
 	    <script src="carousel/owl-carousel/owl.carousel.js"></script>
 
 
-	    <!-- Demo -->
 
 	    <style>
 	    #owl-demo .item img{
@@ -140,15 +166,38 @@
 	    <script src="carousel/assets/js/application.js"></script>  
 		  
       </section>
-  </div>
+     </div>
+	 <!-- End Gallery -->
 	  
-  </div>
 	  
+	  <!-- Begin Contact -->
+	  <section class="contact" id="contact">
+
+	    	<!-- SOCIAL ICONS -->
+			<div id="contactIcons">
+	    		<p class="center-text" >
+	    			<a href="mailto:O.Edo-Osagie@uea.ac.uk"><img class="firstIcon" src="img/email.png"></a>
+	    			<a href="http://github.com/oduwa" target="_blank"><img class="icon" src="img/github.png"></a>
+	    			<a href="https://plus.google.com/+SimoneFerrini/posts" target="_blank"><img class="icon" src="img/gplus.png"></a>
+	    			<a href="http://www.linkedin.com/in/oduwaedoosagie" target="_blank"><img class="icon" src="img/linkedin.png"></a>
+	    			<a href="http://twitter.com/odieED" target="_blank"><img class="icon" src="img/twirra.png"></a>
+	    		</p>
+			</div>
+			
+	  </section>
+	  <!-- End Contact -->
+
+	  
+  	 
+  	
       <footer>
         <a href="http://twitter.com/odieEd" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
         <a href="http://facebook.com/oduwa.edoosagie" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
         <p>&copy; 2014 Oduwa Edo-Osagie.</p>
       </footer>
     </div>
+	
+	
+	<script type="text/javascript" src="scroll.js"></script>
   </body>
 </html>

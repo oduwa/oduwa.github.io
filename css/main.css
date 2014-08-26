@@ -20,17 +20,123 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+.spaced-top-bottom {
+		margin: 25px auto;
+}
+
+
+
 #owl-demo .item img{
     display: block;
     width: 100%;
     height: auto;
 }
 
+#galleryWrapper {
+  background-color: #000;
+}
+
+.circle h1 {
+	color: #555;
+	font-family: 'Quicksand', helvetica, tahoma, arial, sans-serif;	
+	font-size: 200%;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#about {
+	background: #fff; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 500px;
+	position: relative;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#contact {
+	background: #fff; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 400px;
+	position: relative;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#aboutTitle {
+	color: #222222;
+	margin-top: 8%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 62px;
+}
+
+#aboutTitle strong {
+	font-weight: bold;
+	color: #81CFE0;//reddish#D64541;
+}
+
+#aboutDesc {
+	color: #111111;
+	margin-top: 5%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+}
+
+#aboutWrapper {
+	/* Vertical centering */
+	display: table-cell;
+    vertical-align: middle;
+}
+
+#gallery {
+	background-color: #000;
+	position: relative;
+  	margin-left: 18.5%;
+  	margin-right: 20%;
+  	padding: 0;
+  	list-style: none;
+}
+
+#contactIcons {
+	display: table-cell;
+    vertical-align: middle;
+}
+
 /**  MOBILE LAYOUT  (portrait and landscape) **/
 @media only screen and (min-width : 320px) {
 
-	header {
+	.icon {
+		max-width: 25%;
+	}
+	
+	.firstIcon {
+		max-width: 25%;
+		margin-top: 45%;
+	}
+
+	.clear-it {
+		clear: both;
+	}
+	
+	.center-text {
+		text-align: center;
+	}
+
+	/*header {
 		display: none;
+	}*/
+	
+	footer {
+	  margin-top: 55px;
 	}
 	
 	#home {
@@ -42,6 +148,10 @@ time, mark, audio, video {
 			height: 600px;
 			position: relative;
 		}
+		
+	#about {
+		height: 800px;
+	}
 		
 	.circle {
 			background-color: #fff;
@@ -55,6 +165,7 @@ time, mark, audio, video {
 			  top: 50%;
 			  left: 50%;
 			width: 300px;  /* A circle too big will push it and its text off of the home page. */
+			font-size: 12px;
 	}	
 	
 	.circle-text {
@@ -91,10 +202,24 @@ time, mark, audio, video {
 
 @media only screen and (min-width : 768px) {	
 	
+	#about {
+		height: 680px;
+	}
+	
+	.icon {
+		max-width: 10%;
+	}
+	
+	.firstIcon {
+		max-width: 10%;
+		margin-top: 23%;
+	}
+	
 	.circle {
 			margin: -200px 0 0 -200px;
 			height: 400px;
 			width: 400px;  /* A circle too big will push it and its text off of the home page. */	
+			font-size: 15px;
 		}
 		
 	.circle-text {
@@ -106,6 +231,7 @@ time, mark, audio, video {
 			-webkit-box-shadow: 0 2px 3px #efefef;
 			box-shadow: 0 2px 3px #efefef;
 		}
+		
 	
 }
 
@@ -118,15 +244,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.circle h1 {
-		color: #555;
-		font-family: 'Quicksand', helvetica, tahoma, arial, sans-serif;	
-		font-size: 200%;
-		font-weight: 300;
-		text-align: center;
-		text-transform: uppercase;
-		font-weight: bold;
-	}
+
 
 #wrapper {
 	
@@ -280,6 +398,29 @@ footer {
 PAGE: HOME
 ***********************************/
 
+.icon {
+	max-width: 5%;
+}
+
+.firstIcon {
+	max-width: 5%;
+	margin-top: 15%;
+}
+
+footer {
+  margin-top: 0px;
+}
+
+.circle h1 {
+		color: #555;
+		font-family: 'Quicksand', helvetica, tahoma, arial, sans-serif;	
+		font-size: 200%;
+		font-weight: 300;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
 #home {
 	margin-top: 50px; /* Adjusted for the fixed top nav. */
 }
@@ -331,12 +472,11 @@ PAGE: PORTFOLIO
 
 #galleryWrapper {
   background-color: #000;
-  
 }
 
 #gallery {
   background-color: #000;
-  margin-left: 20%;
+  margin-left: 18.5%;
   margin-right: 20%;
   padding: 0;
   list-style: none;
@@ -366,6 +506,16 @@ PAGE: PORTFOLIO
 
 
 /**********************************
+PAGE: ABOUT
+***********************************/
+
+#about {
+	height: 600px;
+}
+
+
+
+/**********************************
 COLORS
 ***********************************/
 
@@ -388,7 +538,8 @@ nav {
 
 /* logo text */
 h1, h2 {
-  color: #888;
+  //color: #888;
+  color: #81CFE0;;
 }
 
 /* links */
@@ -403,7 +554,8 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #000;
+  //color: #000;
+  color: #81CFE0;
 }
 
 
@@ -424,9 +576,6 @@ FONTS
   font-weight: 400;
   src: local('Quicksand Regular'), local('Quicksand-Regular'), url(http://fonts.gstatic.com/s/quicksand/v4/sKd0EMYPAh5PYCRKSryvW7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
-
-
-
 
 
 
