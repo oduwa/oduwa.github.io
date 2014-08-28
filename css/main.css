@@ -131,9 +131,9 @@ time, mark, audio, video {
 		text-align: center;
 	}
 
-	/*header {
+	header {
 		display: none;
-	}*/
+	}
 	
 	footer {
 	  margin-top: 55px;
@@ -275,17 +275,7 @@ header {
   width: 100%;
 }
 */
-header {
-	background-color: #fff;
-	display: block;
-	font-family: 'Raleway', helvetica, tahoma, arial, sans-serif;	
-	position: fixed;
-	  top: 0;
-	  left: 0;
-	height: 50px;
-	width: 100%;
-	z-index: 1;
-}
+
 #logo {
 	float: left;
 	max-width: 30%;
@@ -397,6 +387,18 @@ footer {
 /**********************************
 PAGE: HOME
 ***********************************/
+
+	header {
+		background-color: #fff;
+		display: block;
+		font-family: 'Raleway', helvetica, tahoma, arial, sans-serif;	
+		position: fixed;
+		  top: 0;
+		  left: 0;
+		height: 50px;
+		width: 100%;
+		z-index: 1;
+	}
 
 .icon {
 	max-width: 5%;
