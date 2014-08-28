@@ -7,7 +7,9 @@ $(document).ready(function($){
 	
 	
 	$(document).on("click", "nav li a, .down-arrow, .up-arrow", function(e){
-		e.preventDefault();
+		//e.preventDefault(); Uncomment to allow "open in new tab - target="_blank"" to work
+		
+		
 		
 		//This should set the variable "page" as either #home, #about, #work, or #contact:
 		if( $(this).attr("href") ) {

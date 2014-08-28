@@ -341,7 +341,7 @@ nav a {
 */
 nav {
 	display: inline-block;
-	float: right;	
+	float: right;
 	font-size: 82%; /* 13px/16px = 82% */
 	line-height: 50px;
 	text-align: right;
