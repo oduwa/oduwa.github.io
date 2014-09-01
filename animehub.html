@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AnimeHub</title>
+    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/foundation.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link href="http://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/video.css">
+	
+	<!-- Carousel Imports -->
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="carousel/owl-carousel/owl.carousel.css">
+ 
+	<!-- Default Theme -->
+	<link rel="stylesheet" href="carousel/owl-carousel/owl.theme.css">
+	
+    <!-- Le fav and touch icons -->
+	<!--
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="carousel/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="carousel/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="carousel/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="carousel/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="carousel/assets/ico/favicon.png">
+		<link rel="icon" 
+		      type="image/png" 
+		      href="http://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG">
+ 	-->
+		
+	<link rel="icon" type="image/png" href="">
+
+	<!--  jQuery 1.7+  -->
+	<script src="carousel/assets/js/jquery-1.9.1.min.js"></script>
+ 
+	<!-- Include js plugin -->
+	<script src="carousel/owl-carousel/owl.carousel.js"></script>
+	
+	<script>
+	function change_selected(clicked_item_id){
+		
+		var oldClickedItem = document.getElementsByClassName("selected")[0];
+		oldClickedItem.className = "";
+		
+		var clickedItem = document.getElementById(clicked_item_id);
+		clickedItem.className = "selected";
+		
+		
+	} 
+	</script>
+  </head>
+  <body>
+	    
+	<div class="videoContent-container">
+		<!-- Begin Header -->  
+    	<header class="shadow">
+      	  <a href="index.html" id="logo">
+        	  <h1>Oduwa Edo-Osagie</h1>
+      	  </a>
+		  
+      		<nav>
+        		<ul>
+		  	  		<li><a href="index.html#home" class="selected" id="homeId" onclick="change_selected('homeId')">Home</a></li>
+		  	  		<li><a href="index.html#about" class="" id="aboutId" onclick="change_selected('aboutId')">Profile</a></li>
+		  	  		<li><a href="index.html#gallery" class="" id="galleryId" onclick="change_selected('galleryId')">Work</a></li>
+		  			<li><a href="Resources/cv.pdf" target="_blank">CV</a></li>
+		  	  		<li><a href="http://odiesportfolio.tumblr.com" target="_blank">Blog</a></li>
+		 	    	<li><a href="index.html#contact" class="" id="contactId" onclick="change_selected('contactId')">Contact</a></li>
+        		</ul>
+      	  </nav>
+      </header>
+	<!-- End Header -->
+
+
+
+	<!-- Begin Video -->
+	  <section id="video">
+		  <div class="video-container">
+		  	<iframe width="100%" height="345" src="http://www.youtube.com/embed/H3hUQVRa2i4" ></iframe>
+	  	  </div>
+	  </section>		
+	<!-- End Video -->
+	
+   </div>
+   
+   <div class="content-container">
+	   
+	   <section class="about" id="about" style="margin-top:50px">
+	 	  
+ 		  <p id="aboutTitle">
+ 		  	AnimeHub is a <strong>valuable companion app for anime fans.</strong><br />
+ 		  </p>
+		  
+ 		  <p id="aboutDesc">
+ 		  	I wrote this app because I myself like anime and realized there were no good anime related apps. 
+ 	  	  </p>
+		  
+ 		  <p id="aboutDesc">
+ 		  	I am currently on an Android version in my spare time.
+ 	  	  </p>
+		  
+		  
+		  <br /><br />
+		  <a href="https://itunes.apple.com/us/app/animehub/id882620151?ls=1&mt=8" target="_blank"><img class="center" src="img/AppStoreLogo.png" alt="appStore" width="150px"></a>
+		  <br />
+	   </section>
+	   
+   </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+	
+
+  </body>
+</html>
