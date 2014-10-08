@@ -20,6 +20,38 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+header {
+	background-color: #fff;
+	display: block;
+	font-family: 'Raleway', helvetica, tahoma, arial, sans-serif;	
+	//position: fixed;
+	  top: 0;
+	  left: 0;
+	  z-index: 1;
+}
+
+/* logo text */
+h1, h2 {
+  //color: #888;
+  color: #81CFE0;;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #888;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  //color: #000;
+  color: #81CFE0;
+}
+
 .center {
  	display:block ;
  	margin-left:auto ;
@@ -148,7 +180,7 @@ time, mark, audio, video {
 	}
 
 	header {
-		display: none;
+		//display: none;
 	}
 	
 	footer {
@@ -302,7 +334,7 @@ header {
 
 #logo {
 	float: left;
-	max-width: 30%;
+	max-width: 80%;
 }
 
 h1 {
@@ -356,7 +388,7 @@ nav a {
 nav {
 	display: inline-block;
 	float: right;
-	font-size: 82%; /* 13px/16px = 82% */
+	font-size: 72%; /* 13px/16px = 82% */
 	line-height: 50px;
 	text-align: right;
 	width: 70%;
