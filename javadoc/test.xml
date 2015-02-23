@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+    <channel>
+        <language>en-UK</language>
+        <copyright>All material Copyright 1998-2014 Anime News Network</copyright>
+        <lastBuildDate>Sat, 03 May 2014 06:08:23 +0100</lastBuildDate>
+        
+        
+        <item>
+            <title>My house</title>
+            <link>http://oduwa.github.io/javadoc/220215.xml</link>
+            <guid isPermaLink="true">http://www.animenewsnetwork.co.uk/news/2014-05-03/free-iwatobi-swim-club-anime-new-2nd-season-promo-video-debuts</guid>
+            <description>&quot;The seasons change. I just...want to swim. Summer is coming. Our summer. The first &amp; last eternal summer.&quot;</description>
+            <address>14 Orchid Close</address>
+            <pubDate>Sat, 03 May 2014 05:25:00 +0100</pubDate>
+        </item>
+        
+        <item>
+            <title>A place</title>
+            <link>http://oduwa.github.io/javadoc/220215.xml</link>
+            <guid isPermaLink="true">http://www.animenewsnetwork.co.uk/news/2014-05-03/free-iwatobi-swim-club-anime-new-2nd-season-promo-video-debuts</guid>
+            <description>&quot;The seasons change. I just...want to swim. Summer is coming. Our summer. The first &amp; last eternal summer.&quot;</description>
+            <address>21 Jump Street</address>
+            <pubDate>Sat, 03 May 2014 05:25:00 +0100</pubDate>
+        </item>
+        
+        <item>
+            <title>Some other place</title>
+            <link>http://oduwa.github.io/javadoc/220215.xml</link>
+            <guid isPermaLink="true">http://www.animenewsnetwork.co.uk/news/2014-05-03/free-iwatobi-swim-club-anime-new-2nd-season-promo-video-debuts</guid>
+            <description>&quot;The seasons change. I just...want to swim. Summer is coming. Our summer. The first &amp; last eternal summer.&quot;</description>
+            <address>11 Privet Drive</address>
+            <pubDate>Sat, 03 May 2014 05:25:00 +0100</pubDate>
+        </item>
+        
+        
+        
+    </channel>
+</rss>
+
