@@ -3,26 +3,17 @@
     <channel>
         <language>en-UK</language>       
         
-        <item>
-            <title>Campus Tour</title>
-			<school>null</school>
-            <link>http://uea.ac.uk</link>
-            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
-            <description>Our range of university tours give you the opportunity to see our award winning campus with a current student or at your own leisure. Come along on as many tours as you like to find out more about UEA campus life . . . </description>
-            <location>UEA Campus</location>
-            <startTime>Sat, 21 Feb 2015 09:00:00 +0100</startTime>
-            <endTime>Sat, 21 Feb 2015 16:00:00 +0100</endTime>
-        </item>
-        
+		<!-- Define school as 'null' if the event is not school dependant -->
+              
         <item>
             <title>Student Finance and Accommodation</title>
 			<school>null</school>
             <link>http://uea.ac.uk</link>
             <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
-            <description>Our range of university tours give you the opportunity to see our award winning campus with a current student or at your own leisure. Come along on as many tours as you like to find out more about UEA campus life . . . </description>
-            <location>UEA Campus</location>
-            <startTime>Sat, 21 Feb 2015 10:00:00 +0100</startTime>
-            <endTime>Sat, 21 Feb 2015 10:45:00 +0100</endTime>
+            <description> Information on funding your studies and a brief look into the different accommodation offered </description>
+            <location>Lecture Theatre 1</location>
+            <startTime>Sun, 07 Jun 2015 10:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 10:45:00 +0100</endTime>
 			<id>1</id>
         </item>
         
@@ -31,10 +22,10 @@
 			<school>null</school>
             <link>http://uea.ac.uk</link>
             <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
-            <description>Our range of university tours give you the opportunity to see our award winning campus with a current student or at your own leisure. Come along on as many tours as you like to find out more about UEA campus life . . . </description>
-            <location>UEA Campus</location>
-            <startTime>Sat, 21 Feb 2015 11:00:00 +0100</startTime>
-            <endTime>Sat, 21 Feb 2015 11:45:00 +0100</endTime>
+            <description> Studying abroad is a popular once in a lifetime experience. See what opportunities we have to offer </description>
+            <location>Lecture Theatre 1</location>
+            <startTime>Sun, 07 Jun 2015 11:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 11:45:00 +0100</endTime>
 			<id>2</id>
         </item>
         
@@ -43,10 +34,10 @@
 			<school>null</school>
             <link>http://uea.ac.uk</link>
             <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
-            <description>Our range of university tours give you the opportunity to see our award winning campus with a current student or at your own leisure. Come along on as many tours as you like to find out more about UEA campus life . . . </description>
-            <location>UEA Campus</location>
-            <startTime>Sat, 21 Feb 2015 12:00:00 +0100</startTime>
-            <endTime>Sat, 21 Feb 2015 12:45:00 +0100</endTime>
+            <description> Here at UEA we welcome mature students, this talk will focus on the opportunities mature students have and the assistance we offer when pursuing your degree</description>
+            <location>Thomas Paine Lecture Theatre </location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
 			<id>3</id>
         </item>
         
@@ -55,10 +46,10 @@
 			<school>null</school>
             <link>http://uea.ac.uk</link>
             <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
-            <description>Our range of university tours give you the opportunity to see our award winning campus with a current student or at your own leisure. Come along on as many tours as you like to find out more about UEA campus life . . . </description>
-            <location>UEA Campus</location>
-            <startTime>Sat, 21 Feb 2015 13:00:00 +0100</startTime>
-            <endTime>Sat, 21 Feb 2015 13:45:00 +0100</endTime>
+            <description> A year in industry assists degree holders in the job market on completion of their degree. Here we will talk about the opportunites that are available for UEA students </description>
+            <location>Thomas Paine Lecture Theatre</location>
+            <startTime>Sun, 07 Jun 2015 13:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 13:45:00 +0100</endTime>
 			<id>4</id>
         </item>
         
@@ -67,10 +58,10 @@
 			<school>null</school>
             <link>http://uea.ac.uk</link>
             <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
-            <description>Our range of university tours give you the opportunity to see our award winning campus with a current student or at your own leisure. Come along on as many tours as you like to find out more about UEA campus life . . . </description>
-            <location>UEA Campus</location>
-            <startTime>Sat, 21 Feb 2015 13:00:00 +0100</startTime>
-            <endTime>Sat, 21 Feb 2015 14:45:00 +0100</endTime>
+            <description>During this talk we will offer advice for building a perfect person statement and a small guide through the online UCAS system </description>
+            <location>Lecture Theatre 2</location>
+            <startTime>Sun, 07 Jun 2015 13:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 14:45:00 +0100</endTime>
 			<id>5</id>
         </item>
         
@@ -79,37 +70,295 @@
 			<school>null</school>
             <link>http://uea.ac.uk</link>
             <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
-            <description>Our range of university tours give you the opportunity to see our award winning campus with a current student or at your own leisure. Come along on as many tours as you like to find out more about UEA campus life . . . </description>
-            <location>UEA Campus</location>
-            <startTime>Sat, 21 Feb 2015 14:00:00 +0100</startTime>
-            <endTime>Sat, 21 Feb 2015 14:45:00 +0100</endTime>
+            <description> A few current students will talk about their experiences at UEA </description>
+            <location>Lecture Theatre 3</location>
+            <startTime>Sun, 07 Jun 2015 14:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 14:45:00 +0100</endTime>
 			<id>6</id>
         </item>
         
 		<item>
-            <title>Tour of CMP labs</title>
+            <title>Tour of CMP Facilities</title>
 			<school>CMP</school>
             <link>http://uea.ac.uk</link>
             <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
-            <description>Our range of university tours give you the opportunity to see our award winning campus with a current student or at your own leisure. Come along on as many tours as you like to find out more about UEA campus life . . . </description>
-            <location>UEA Campus</location>
-            <startTime>Sat, 21 Feb 2015 14:00:00 +0100</startTime>
-            <endTime>Sat, 21 Feb 2015 14:45:00 +0100</endTime>
+            <description> Computing science has a large range of facilities available to students, this tour will take you round the different labs and display different machinery used. </description>
+            <location>UEA Square</location>
+            <startTime>Sun, 07 Jun 2015 10:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 10:45:00 +0100</endTime>
 			<id>7</id>
         </item>
 		
-			<item>
-            <title>Tour of Chem labs</title>
+		<item>
+            <title>Tour of CHE Facilities</title>
 			<school>CHE</school>
             <link>http://uea.ac.uk</link>
             <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
-            <description>Our range of university tours give you the opportunity to see our award winning campus with a current student or at your own leisure. Come along on as many tours as you like to find out more about UEA campus life . . . </description>
-            <location>UEA Campus</location>
-            <startTime>Sat, 21 Feb 2015 14:00:00 +0100</startTime>
-            <endTime>Sat, 21 Feb 2015 14:45:00 +0100</endTime>
+            <description> Chemistry has a large range of facilities available to students, this tour will take you round the different labs and display different machinery used. </description>
+            <location>UEA Library Entrance</location>
+            <startTime>Sun, 07 Jun 2015 14:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 14:45:00 +0100</endTime>
 			<id>8</id>
         </item>
+		
+		<item>
+            <title>CMP Job Prospects</title>
+			<school>CMP</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 1.02</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>9</id>
+        </item>
+		
+		<item>
+            <title>CHE Job Prospects</title>
+			<school>CHE</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 1.03</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>10</id>
+        </item>
+		
+		<item>
+            <title>DEV Job Prospects</title>
+			<school>DEV</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 1.04</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>11</id>
+        </item>
+		
+		<item>
+            <title>AMA Job Prospects</title>
+			<school>AMA</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 1.05</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>12</id>
+        </item>
+		
+			<item>
+            <title>BIO Job Prospects</title>
+			<school>BIO</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 1.06</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>13</id>
+        </item>
+		
+			<item>
+            <title>PPL Job Prospects</title>
+			<school>PPL</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 1.07</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>14</id>
+        </item>
+		
+			<item>
+            <title>ENV Job Prospects</title>
+			<school>ENV</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 1.08</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>15</id>
+        </item>
+		
+			<item>
+            <title>MTH Job Prospects</title>
+			<school>MTH</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 1.09</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>16</id>
+        </item>
               
+		<item>
+            <title>LIT Job Prospects</title>
+			<school>LIT</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 01.01</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>17</id>
+        </item>
+		
+			<item>
+            <title>ECO Job Prospects</title>
+			<school>ECO</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 01.02</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>18</id>
+		</item>
+		<item>
+            <title>EDU Job Prospects</title>
+			<school>EDU</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 01.03</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>19</id>
+        </item>
+		
+        	<item>
+            <title>HIS Job Prospects</title>
+			<school>HIS</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 01.04</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>20</id>
+        </item>
+			<item>
+            <title>HSC Job Prospects</title>
+			<school>HSC</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 01.05</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>21</id>
+        </item>
+		
+		<item>
+            <title>LAW Job Prospects</title>
+			<school>LAW</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 01.06</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>22</id>
+        </item>
+		<item>
+            <title>LDC Job Prospects</title>
+			<school>LDC</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 01.07</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>23</id>
+        </item>
+		
+		<item>
+            <title>MED Job Prospects</title>
+			<school>MED</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 01.08/location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>24</id>
+        </item>
+		
+		<item>
+            <title>NBS Job Prospects</title>
+			<school>NBS</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Elizabeth Fry - 01.09</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>25</id>
+        </item>
+		
+		<item>
+            <title>PHA Job Prospects</title>
+			<school>PHA</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Arts - 1.10</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>26</id>
+        </item>
+		
+		<item>
+            <title>PSY Job Prospects</title>
+			<school>PSY</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Arts - 1.11</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>27</id>
+        </item>
+		<item>
+            <title>SWK Job Prospects</title>
+			<school>SWK</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description> What is in store for you on completion of your degree? Here we talk about the opportunities that will open up for you. </description>
+            <location>Arts - 1.12</location>
+            <startTime>Sun, 07 Jun 2015 12:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 12:45:00 +0100</endTime>
+			<id>28</id>
+        </item>
+		  <item>
+            <title>Campus Tour</title>
+			<school>null</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description>Our range of university tours give you the opportunity to see our award winning campus with a current student or at your own leisure. Come along on as many tours as you like to find out more about UEA campus life</description>
+            <location>Congregation Hall</location>
+            <startTime>Sun, 07 Jun 2015 09:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 16:00:00 +0100</endTime>
+			<id>29</id>
+        </item>
+		
+		<item>
+            <title>Sportspark Tour</title>
+			<school>null</school>
+            <link>http://uea.ac.uk</link>
+            <image>https://portal.uea.ac.uk/documents/6207125/6531413/1.166634!ueastandardrbglarge.gif/69ff43c9-7b89-404e-af97-e489ec259fa2?t=1406031765857</image>
+            <description>View the sporting facilities available on the door of UEA</description>
+            <location>Sportspark</location>
+            <startTime>Sun, 07 Jun 2015 13:00:00 +0100</startTime>
+            <endTime>Sun, 07 Jun 2015 13:45:00 +0100</endTime>
+			<id>30</id>
+        </item>
     </channel>
 </rss>
 
