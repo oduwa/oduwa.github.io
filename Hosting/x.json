@@ -1,0 +1,138 @@
+{
+  "audioguides": [
+    {
+		"name": "Vatican Museum",
+		"uid": "AUDIO00002",
+		"version": 2,
+		"data" :     {
+	        "chi" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "5b988bdd",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_chi.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_chi.tgz",
+	        },
+	        "deu" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "Deutsch",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_deu.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_deu.tgz",
+	        },
+	        "eng" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "English",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_eng.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_eng.tgz",
+	        },
+	        "esp" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "Espa00f1ol",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_esp.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_esp.tgz",
+	        },
+	        "fra" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "Fran00e7ais",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_fra.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_fra.tgz",
+	        },
+	        "ita" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "Italiano",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_ita.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_ita.tgz",
+	        },
+	        "jap" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "5e5672c8a9e",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_jap.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_jap.tgz",
+	        },
+	        "kor" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "d55cad6dc5b4",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_kor.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_kor.tgz",
+	        },
+	        "por" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "Portugu00eas",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_por.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_por.tgz",
+	        },
+	        "rus" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "0420 0443 0441 0441 043a 0438 0439  044f 0437 044b 043a",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_rus.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_rus.tgz",
+	        },
+	    },
+    },
+    {
+		"name": "St. Peter",
+		"uid": "AUDIO00001",
+		"version": 2,
+		"data" :     {
+	        "chi" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : " 5b98 8bdd",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_chi.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_chi.tgz",
+	        },
+	        "deu" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "Deutsch",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_deu.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_deu.tgz",
+	        },
+	        "eng" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "English",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_eng.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_eng.tgz",
+	        },
+	        "esp" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "Espa 00f1ol",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_esp.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_esp.tgz",
+	        },
+	        "fra" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "Fran 00e7ais",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_fra.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_fra.tgz",
+	        },
+	        "ita" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "Italiano",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_ita.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_ita.tgz",
+	        },
+	        "jap" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : " 65e5 672c 8a9e",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_jap.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_jap.tgz",
+	        },
+	        "kor" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : " d55c ad6d c5b4",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_kor.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_kor.tgz",
+	        },
+	        "por" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : "Portugu 00eas",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_por.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_por.tgz",
+	        },
+	        "rus" :         {
+	            "description" : "Description\nDescription\nDescription\nDescription\nDescription\n",
+	            "display_name" : " 0420 0443 0441 0441 043a 0438 0439  044f 0437 044b 043a",
+	            "local" : "http://192.168.4.10/tarballs/AUDIO00002_rus.tgz",
+	            "public" : "http://popcms.populi.rocks/tarballs/AUDIO00002_rus.tgz",
+	        },
+	    },
+    }
+  ]
+}
