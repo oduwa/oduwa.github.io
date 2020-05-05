@@ -1,0 +1,176 @@
+{
+  "end": -1, 
+  "manga": [
+{
+  "a": "c.m.b", 
+  "c": [
+    "Adventure", 
+    "Comedy", 
+    "Historical", 
+    "Mystery", 
+    "Psychological", 
+    "Shounen"
+  ], 
+  "h": 308596, 
+  "i": "4e70ea08c092255ef7004873", 
+  "im": "70/70625adde1af57f82a917cbd5a17432c4e24a987ef8d43991e86e157.jpg", 
+  "ld": 1587739748.0, 
+  "s": 1, 
+  "t": "C.M.B."
+}, 
+{
+  "a": "silver-spoon", 
+  "c": [
+    "Comedy", 
+    "Drama", 
+    "Romance", 
+    "School Life", 
+    "Shounen", 
+    "Slice of Life"
+  ], 
+  "h": 1955779, 
+  "i": "4e70ea7cc092255ef7006fce", 
+  "im": "8b/8bb7ead62fa90dc7f238f5331477b384b49d703fadb58f18b53f7308.jpg", 
+  "ld": 1585454901.0, 
+  "s": 0, 
+  "t": "Silver Spoon"
+}, 
+{
+  "a": "fantasista", 
+  "c": [
+    "Comedy", 
+    "Drama", 
+    "School Life", 
+    "Shounen", 
+    "Sports"
+  ], 
+  "h": 1072407, 
+  "i": "4e70e9e7c092255ef7003ff5", 
+  "im": null, 
+  "ld": 1555642891.0, 
+  "s": 2, 
+  "t": "Fantasista"
+}, 
+{
+  "a": "switch-girl", 
+  "c": [
+    "Comedy", 
+    "Romance", 
+    "School Life", 
+    "Shoujo"
+  ], 
+  "h": 2063305, 
+  "i": "4e70ea10c092255ef7004ad7", 
+  "im": null, 
+  "ld": 1577318720.0, 
+  "s": 2, 
+  "t": "Switch Girl!!"
+}, 
+{
+  "a": "yongbi", 
+  "c": [
+    "Action", 
+    "Adventure", 
+    "Comedy", 
+    "Historical", 
+    "Martial Arts", 
+    "Shounen"
+  ], 
+  "h": 1048979, 
+  "i": "4e70ea8bc092255ef70073bd", 
+  "im": "20/202b2789563106871431c703928d3934749895a432af70d093ac73ea.jpg", 
+  "ld": 1534838076.0, 
+  "s": 2, 
+  "t": "Yongbi"
+}, 
+{
+  "a": "magician-kim-sarae", 
+  "c": [
+    "Action", 
+    "Adventure", 
+    "Comedy", 
+    "Drama", 
+    "Fantasy", 
+    "Mystery", 
+    "Romance"
+  ], 
+  "h": 2739540, 
+  "i": "4e70e9fdc092255ef7004530", 
+  "im": null, 
+  "ld": 1587887131.0, 
+  "s": 2, 
+  "t": "Magician (KIM Sarae)"
+}, 
+{
+  "a": "one-piece", 
+  "c": [
+    "Action", 
+    "Adventure", 
+    "Comedy", 
+    "Drama", 
+    "Fantasy", 
+    "Shounen"
+  ], 
+  "h": 209806950, 
+  "i": "4e70ea10c092255ef7004aa2", 
+  "im": "b0/b0ac7f12d2cb0fc07b9418d5544a3f97cbbc30e967396ae70f98d101.png", 
+  "ld": 1587722420.0, 
+  "s": 1, 
+  "t": "One Piece"
+}, 
+{
+  "a": "usogui", 
+  "c": [
+    "Action", 
+    "Drama", 
+    "Mystery", 
+    "Psychological", 
+    "Seinen"
+  ], 
+  "h": 662512, 
+  "i": "4e70ea11c092255ef7004ae1", 
+  "im": null, 
+  "ld": 1587793601.0, 
+  "s": 1, 
+  "t": "Usogui"
+}, 
+{
+  "a": "baby-steps", 
+  "c": [
+    "Comedy", 
+    "Drama", 
+    "Romance", 
+    "School Life", 
+    "Shounen", 
+    "Slice of Life", 
+    "Sports"
+  ], 
+  "h": 4752019, 
+  "i": "4e70ea1dc092255ef7004d4a", 
+  "im": "9a/9ad2db47d3c2cb271072389b57c35d01635ad507431365743fafceb4.jpg", 
+  "ld": 1588131426.0, 
+  "s": 1, 
+  "t": "Baby Steps"
+}, 
+{
+  "a": "the-gamer", 
+  "c": [
+    "Action", 
+    "Adventure", 
+    "Comedy", 
+    "School Life", 
+    "Shounen", 
+    "Supernatural"
+  ], 
+  "h": 5970363, 
+  "i": "522e4b1d45b9ef7927d18ba4", 
+  "im": "54/5416a5cc62c7eb2a967897697bf7c6efc4479fd525101b78dce0bdba.png", 
+  "ld": 1588307058.0, 
+  "s": 2, 
+  "t": "The Gamer"
+}, 
+  ], 
+  "page": -1, 
+  "start": 0, 
+  "total": 7238
+}
